@@ -1,0 +1,34 @@
+{
+"products": [
+{
+    "id": "1",
+    "name": "Hamburguesa Clásica",
+    "price": 8.99,
+    "category": "burger"
+},
+{
+    "id": "2",
+    "name": "Hamburguesa Doble",
+    "price": 11.99,
+    "category": "burger"
+},
+{
+    "id": "3",
+    "name": "Pizza Pepperoni",
+    "price": 10.50,
+    "category": "pizza"
+},
+{
+    "id": "4",
+    "name": "Pizza Hawaiana",
+    "price": 9.75,
+    "category": "pizza"
+},
+{
+    "id": "5",
+    "name": "Perrito Caliente",
+    "price": 5.25,
+    "category": "hotdog"
+}
+]
+}

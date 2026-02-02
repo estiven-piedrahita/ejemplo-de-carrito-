@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mini Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>🍔 Mini Food Shop</h1>
+    </header>
+
+    <!-- FILTROS -->
+    <section class="filters">
+        <button class="filter-btn " data-category="all">Todos</button>
+        <button class="filter-btn" data-category="burger">Hamburguesas</button>
+        <button class="filter-btn" data-category="pizza">Pizzas</button>
+        <button class="filter-btn" data-category="hotdog">Perritos</button>
+    </section>
+
+    <main class="container-fluid d-flex">
+
+        <!-- PRODUCTOS -->
+        <section class="products" id="products">
+
+        </section>
+
+        <!-- CARRITO -->
+        <aside class="cart">
+            <h2>🛒 Carrito</h2>
+            <div class="carrito">
+                <!-- AQUÍ JS VA A PINTAR LOS ITEMS -->
+                <!-- <div class="card">
+                    <h5 class="card-header">Featured</h5>
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="count border-2">
+                            <div class="d-flex gap-3">
+                                <button class=" btn btn-success btn-count">-</button>
+                                <button class=" btn btn-success btn-count">reset</button>
+                                <button class=" btn btn-success btn-count">+</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
+            </div>
+            <div id="cart-items"></div>
+
+            <p class="total">Total: $0.00</p>
+        </aside>
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
